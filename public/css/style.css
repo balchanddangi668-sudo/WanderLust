@@ -59,7 +59,7 @@
 }
 
 
-.card {
+.listing-card {
     border: none !important;
     margin-bottom: 2rem;
 }
@@ -108,4 +108,31 @@
 .show-card {
     padding-left: 0;
     padding-right: 0;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Popup design */
+.custom-popup {
+  width: 220px;
+  padding: 5px;
+}
+
+.custom-popup h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.custom-popup p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666;
 }
